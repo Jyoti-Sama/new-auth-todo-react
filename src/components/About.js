@@ -47,7 +47,7 @@ const homeStyling = {
   },
   aboutProject: {
     color: primaryColor,
-    margin: "100px 100px"
+    margin: "100px 50px"
   },
   logoContainer: {
     display: "flex",
@@ -93,7 +93,7 @@ function About() {
 
       </div>
 
-      <div style={{ margin: "200px 50px", color: tartiaryColor, background: primaryColor, borderRadius: "10px", padding: "15px" }}>
+      <div style={{ margin: "200px 20px", color: tartiaryColor, background: primaryColor, borderRadius: "10px", padding: "15px" }}>
 
         <h2>There are total 6 pages</h2>
 
@@ -112,7 +112,7 @@ function About() {
 
       </div>
 
-      <div style={{ margin: "200px 50px", color: tartiaryColor, background: primaryColor, borderRadius: "10px", padding: "15px" }}>
+      <div style={{ margin: "200px 20px", color: tartiaryColor, background: primaryColor, borderRadius: "10px", padding: "15px" }}>
 
         <div style={{ margin: "15px 0 20px 0" }}>Modal is used for creating new todo and editing todo</div>
         <img src={modalImage} style={{ width: 'calc(100%)' }} alt="modal" />
@@ -122,7 +122,7 @@ function About() {
 
       </div>
 
-      <div style={{ margin: "200px 50px 100px 50px", color: tartiaryColor, background: primaryColor, borderRadius: "10px", padding: "15px" }}>
+      <div style={{ margin: "200px 30px 100px 30px", color: tartiaryColor, background: primaryColor, borderRadius: "10px", padding: "15px" }}>
 
 
         <div style={{ margin: "15px 0 20px 0" }}><h2>How to register?</h2></div>

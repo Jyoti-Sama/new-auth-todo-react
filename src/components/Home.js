@@ -15,7 +15,7 @@ const homeStyling = {
   heroSection: {
     marginTop: "100px",
     fontSize: "50px",
-    marginLeft: "100px",
+    marginLeft: "50px",
     color: primaryColor,
   },
   colA: {
