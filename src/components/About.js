@@ -72,23 +72,23 @@ function About() {
         </p>
 
         <div style={homeStyling.logoContainer}>
-          <img src={muiLogo} height="30px" /> <span style={homeStyling.logoTitle}>mui</span>  <span style={homeStyling.colC}>styling</span>
+          <img src={muiLogo} height="30px" alt='mui'/> <span style={homeStyling.logoTitle}>mui</span>  <span style={homeStyling.colC}>styling</span>
         </div>
 
         <div style={homeStyling.logoContainer}>
-          <img src={reduxLogo} height="30px" /> <span style={homeStyling.logoTitle}>Redux toolkit</span>  <span style={homeStyling.colC}>state management</span>
+          <img src={reduxLogo} height="30px" alt='redux'/> <span style={homeStyling.logoTitle}>Redux toolkit</span>  <span style={homeStyling.colC}>state management</span>
         </div>
 
         <div style={homeStyling.logoContainer}>
-          <img src={mongooseLogo} height="30px" /> <span style={homeStyling.logoTitle}>Mongoose</span>  <span style={homeStyling.colC}>ODM for mongoDb</span>
+          <img src={mongooseLogo} height="30px" alt='mongoose'/> <span style={homeStyling.logoTitle}>Mongoose</span>  <span style={homeStyling.colC}>ODM for mongoDb</span>
         </div>
 
         <div style={homeStyling.logoContainer}>
-          <img src={nodemailerLogo} height="30px" /> <span style={homeStyling.logoTitle}>Nodemailer</span>  <span style={homeStyling.colC}>email service</span>
+          <img src={nodemailerLogo} height="30px" alt='nodemailer'/> <span style={homeStyling.logoTitle}>Nodemailer</span>  <span style={homeStyling.colC}>email service</span>
         </div>
 
         <div style={homeStyling.logoContainer}>
-          <img src={jwtLogo} height="30px" /> <span style={homeStyling.logoTitle}>JWT</span>  <span style={homeStyling.colC}>authentication</span>
+          <img src={jwtLogo} height="30px" alt='jwt'/> <span style={homeStyling.logoTitle}>JWT</span>  <span style={homeStyling.colC}>authentication</span>
         </div>
 
       </div>
@@ -98,27 +98,27 @@ function About() {
         <h2>There are total 6 pages</h2>
 
         <div style={{ margin: "45px 0 20px 0" }}>Home page</div>
-        <img src={homeImage} style={{ width: 'calc(100%)' }} />
+        <img src={homeImage} style={{ width: 'calc(100%)' }} alt='home'/>
 
 
         <div style={{ margin: "45px 0 20px 0" }}>Login page</div>
-        <img src={loginImage} style={{ width: 'calc(100%)' }} />
+        <img src={loginImage} style={{ width: 'calc(100%)' }} alt="login" />
 
         <div style={{ margin: "45px 0 20px 0" }}>Register page</div>
-        <img src={registerImage} style={{ width: 'calc(100%)' }} />
+        <img src={registerImage} style={{ width: 'calc(100%)' }} alt='register' />
 
         <div style={{ margin: "45px 0 20px 0" }}>User Page </div>
-        <img src={userImage} style={{ width: 'calc(100%)' }} />
+        <img src={userImage} style={{ width: 'calc(100%)' }} alt="user" />
 
       </div>
 
       <div style={{ margin: "200px 50px", color: tartiaryColor, background: primaryColor, borderRadius: "10px", padding: "15px" }}>
 
         <div style={{ margin: "15px 0 20px 0" }}>Modal is used for creating new todo and editing todo</div>
-        <img src={modalImage} style={{ width: 'calc(100%)' }} />
+        <img src={modalImage} style={{ width: 'calc(100%)' }} alt="modal" />
 
         <div style={{ margin: "45px 0 20px 0" }}>Snakbar is used for to show acknowledgement from backend for respective actions taken from frontend.</div>
-        <img src={snackbarImage} style={{ width: 'calc(100%)' }} />
+        <img src={snackbarImage} style={{ width: 'calc(100%)' }} alt="snackbar" />
 
       </div>
 
