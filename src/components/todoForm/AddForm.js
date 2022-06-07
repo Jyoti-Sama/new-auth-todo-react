@@ -45,7 +45,7 @@ function AddForm() {
     }
     return (
         <div>
-            <form onSubmit={(event) => submitHandler(event)}>
+            <form onSubmit={(event) => submitHandler(event)} style={{maxWidth:"500px", width:"80vw"}}>
 
                 <InputSection props={{ name: "title", data: "" }} />
 
