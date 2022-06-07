@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link-style{
+    text-decoration: none;
+    color: rgb(35, 77, 117);
+}
+
+.bar-col{
+    color: whitesmoke;
+}
+
+.grid-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;    
+    
+}
+
+.add-icon{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
